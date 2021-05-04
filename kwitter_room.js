@@ -1,18 +1,17 @@
 
 //ADD YOUR FIREBASE LINKS HERE
-// Your web app's Firebase configuration
-var firebaseConfig = {
-      apiKey: "AIzaSyC-iKpY4JbOn1yNjQrs6BpD0ZKlnXuVl_M",
-      authDomain: "kwitter-801af.firebaseapp.com",
-      databaseURL: "https://kwitter-801af-default-rtdb.firebaseio.com",
-      projectId: "kwitter-801af",
-      storageBucket: "kwitter-801af.appspot.com",
-      messagingSenderId: "11660470154",
-      appId: "1:11660470154:web:b21b3fa0870d0dca040a73"
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+      apiKey: "AIzaSyDtbXWqlAuhLp2WELzMAr3EVwBxqchzEmg",
+      authDomain: "let-s-chat-web-app-88f85.firebaseapp.com",
+      databaseURL: "https://let-s-chat-web-app-88f85-default-rtdb.firebaseio.com",
+      projectId: "let-s-chat-web-app-88f85",
+      storageBucket: "let-s-chat-web-app-88f85.appspot.com",
+      messagingSenderId: "418081749701",
+      appId: "1:418081749701:web:b2cb74347f450d9ddb0eac"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
-
     user_name=localStorage.getItem("user_name");
     document.getElementById("user_name").innerHTML="Welcome "+user_name+"!";
     
